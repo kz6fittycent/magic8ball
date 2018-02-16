@@ -20,8 +20,11 @@ def build_bubble(quote=""):
                          quote.strip())
 
 
-def main():
-    with open(quotes_path) as quotes_file:
+def main(string):
+    print(string)
+    question = input("What is your question?  ")
+    
+        open(quotes_path) as quotes_file:
         print(build_bubble(random.choice(quotes_file.readlines())))
 
     with open(ascii_path) as ascii_file:
