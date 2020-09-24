@@ -1,9 +1,11 @@
 # magic8ball
 A magic 8-ball application for the terminal
 
-# To install: `sudo snap install magic8ball`
+## To install: 
 
-# Credits: Feddasch and SamuelTM for the original code, upon which this application is based. 
+`sudo snap install magic8ball`
+
+## Credits: Feddasch and SamuelTM for the original code, upon which this application is based. 
 
 
       \
